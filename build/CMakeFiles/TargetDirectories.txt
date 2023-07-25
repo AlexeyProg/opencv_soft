@@ -1,0 +1,4 @@
+/Users/sokol/Desktop/c++_projects/opencv_introduction/build/CMakeFiles/main.dir
+/Users/sokol/Desktop/c++_projects/opencv_introduction/build/CMakeFiles/edit_cache.dir
+/Users/sokol/Desktop/c++_projects/opencv_introduction/build/CMakeFiles/rebuild_cache.dir
+/Users/sokol/Desktop/c++_projects/opencv_introduction/build/CMakeFiles/main_autogen.dir

@@ -1,0 +1,11 @@
+-I/Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers
+-F/Users/sokol/Qt/6.5.1/macos/lib
+-I/Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers
+-F/Users/sokol/Qt/6.5.1/macos/lib
+-I/Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Headers
+-F/Users/sokol/Qt/6.5.1/macos/lib
+-I/Users/sokol/Qt/6.5.1/macos/lib/QtDBus.framework/Headers
+-F/Users/sokol/Qt/6.5.1/macos/lib
+-o
+/Users/sokol/Desktop/c++_projects/opencv_introduction/build/moc_application.cpp
+/Users/sokol/Desktop/c++_projects/opencv_introduction/application.h
