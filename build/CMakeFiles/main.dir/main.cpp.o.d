@@ -1020,6 +1020,12 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qfontinfo.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qlayout.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QGridLayout \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
@@ -1032,5 +1038,31 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextformat.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpen.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextoption.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QFileDialog \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qfiledialog.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdir.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qfile.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qfiledevice.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdatetime.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcalendar.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qdialog.h \
   /Users/sokol/Desktop/c++_projects/opencv_introduction/graphics/../obj/detect.h \
   /Users/sokol/Desktop/c++_projects/opencv_introduction/obj/detect.h

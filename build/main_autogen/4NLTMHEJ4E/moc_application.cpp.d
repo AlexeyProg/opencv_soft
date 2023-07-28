@@ -270,7 +270,22 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__errc \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/enable_insertable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
@@ -565,6 +580,7 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
@@ -713,6 +729,7 @@
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
@@ -725,8 +742,13 @@
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qdir.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qfile.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qfiledevice.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qfileinfo.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
@@ -736,11 +758,13 @@
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
@@ -834,11 +858,20 @@
   /Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QFileDialog \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QLineEdit \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qfiledialog.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qlineedit.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \

@@ -851,4 +851,5 @@ CMakeFiles/main.dir/obj/detect.cpp.o: \
   /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp \
   /usr/local/include/opencv4/opencv2/video.hpp \
   /usr/local/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/include/opencv4/opencv2/video/background_segm.hpp
+  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/thread

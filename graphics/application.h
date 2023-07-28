@@ -2,8 +2,12 @@
 #define APPLICATION_H
 
 #include <QtWidgets/QMainWindow>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QLineEdit>
+#include <QtWidgets/QFileDialog>
+#include <filesystem>
 #include "../obj/detect.h"
 
 
@@ -18,14 +22,21 @@ public:
     void create_window();
     virtual ~Application() = default;
     string data_to_send;
-
+    string file_path;
 
 public slots:
     void send_data();
+    void recognize();
+    void open_browse_dialog();
 
 private:
     Detect *det;
-    QPushButton *browse_butt;
+    QVBoxLayout *lay;
+    QGridLayout *grid;
+
+    QPushButton *resize_butt;
+    QPushButton *recognize_butt;
+    QPushButton *test;
     QLineEdit *line_edit;
 
 };

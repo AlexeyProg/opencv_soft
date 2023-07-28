@@ -1,56 +1,59 @@
 #include "detect.h"
+#include <thread>
 
 Detect::Detect()
 {
 
 }
 
+// void Detect::video()
+// {
+//     VideoCapture video(0);
+//     Mat img;
+//     while(true)
+//     {
+//         video.read(img);
+//         imshow("frame", img);
+//         waitKey(1);
+//     }
+// }
+
 void Detect::get_data(const string &data)
 {
     file_path = data;
 }
 
- void Detect::detect_faces(string file_name, int &counter)
+ Mat Detect::detect_faces(string path)
 {
+    string name = "";
+    int i = path.size() - 1;
+    while(path[i] != '/')
+    {
+        name += path[i];
+        i--;
+    }
+    reverse(name.begin(), name.end());
+
     // Загрузка изображения
-    Mat image = imread(file_name, IMREAD_COLOR);
+    Mat image = imread(path, IMREAD_COLOR);
 
     // Проверка на успешную загрузку
     if (image.empty()) {
         cerr << "Failed to load the image." << endl;
-        return ;
+        return {};
     }
 
     //  face recognation 
     CascadeClassifier faceCascade;
     string cascade_path = "/usr/local/share/opencv4/haarcascades/haarcascade_frontalface_default.xml";
     bool checkCascade = faceCascade.load(samples::findFile(cascade_path));
-    if(checkCascade)
-    {
-        cout << "cascade is found";
-    }
-    else
-    {
+    if(!checkCascade)
         cout << "cascade is not found";
-    }
+
     // Обнаружение лиц на изображении
     vector<Rect> faces;
-    float factor_scale = 0;
-    int neighbours = 0;
-    Size face_size = Size(25,25);
-    //если человек один
-    if(counter <= 2)
-    {
-        factor_scale = 1.2;
-        neighbours = 1;
-        face_size = Size(25,25);
-    }
-    else
-    {
-        factor_scale = 1.5;
-        neighbours = 4;
-    }
-    faceCascade.detectMultiScale(image, faces, factor_scale, neighbours, 0 | CASCADE_SCALE_IMAGE, face_size);
+
+    faceCascade.detectMultiScale(image, faces, 1.8, 1, 0 | CASCADE_SCALE_IMAGE, Size(25,25));
 
     // Рисование прямоугольников вокруг обнаруженных лиц
     for (const auto& face : faces) {
@@ -58,29 +61,24 @@ void Detect::get_data(const string &data)
     }
 
     // Отображение изображения с обнаруженными лицами в окне
-    imshow("Image with Detected Faces", image);
-
+    
+    //imshow("Image with Detected Faces", image);
+    return image;
     // Ожидание нажатия клавиши
-    waitKey(0);
+   //waitKey(0);
 }
 
 void Detect::resize_image(const string &path)
 {
-
-    // Загрузка изображения
-    cout << path  << " - path in detect" << endl;
-
     // сделать name из path
     string name  = "";
-    string test = path;
-    int i = test.size();
-    cout << " first  = " << test[i] << endl;
-    while(test[i] != '/')
+    int i = path.size() - 1;
+    while(path[i] != '/')
     {
-        cout << test[i] << endl;
+        name += path[i];
         i--;
     }
-
+    reverse(name.begin(), name.end());
 
     Mat image = imread(path, IMREAD_COLOR);
 
@@ -100,8 +98,7 @@ void Detect::resize_image(const string &path)
     // waitKey(0);
 
     // Сохранение изображения
-    string s = "re" + path;
-    cout << " s - " << s << endl;
+    string s = "re" + name;
     if (imwrite(s, resizedImage)) 
     {
         cout << "Image saved successfully." << endl;
@@ -110,8 +107,6 @@ void Detect::resize_image(const string &path)
     {
         cerr << "Failed to save the image." << endl;
     }
-
-
 }
 
 Detect::~Detect()

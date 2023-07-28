@@ -838,6 +838,12 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: \
   /Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qlayout.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QGridLayout \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
@@ -850,8 +856,26 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: \
   /Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextformat.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpen.h \
   /Users/sokol/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextoption.h \
-  /Users/sokol/Desktop/c++_projects/opencv_introduction/build/main_autogen/4NLTMHEJ4E/../../../graphics/../obj/detect.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QFileDialog \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qfiledialog.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdir.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qfile.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qfiledevice.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__errc \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cerrno \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/istream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/bitset \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale.h \
@@ -860,8 +884,6 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/mutex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mutex_base \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/system_error \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__errc \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cerrno \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_xlocale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_ctype.h \
@@ -872,9 +894,6 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/istream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/bitset \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdarg \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/streambuf \
@@ -906,6 +925,21 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdatetime.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcalendar.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/sokol/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qdialog.h \
+  /Users/sokol/Desktop/c++_projects/opencv_introduction/build/main_autogen/4NLTMHEJ4E/../../../graphics/../obj/detect.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /usr/local/include/opencv4/opencv2/opencv.hpp \
   /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/local/include/opencv4/opencv2/core.hpp \
@@ -980,7 +1014,6 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: \
   /usr/local/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
   /usr/local/include/opencv4/opencv2/flann/lsh_index.h \
   /usr/local/include/opencv4/opencv2/flann/lsh_table.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip \
   /usr/local/include/opencv4/opencv2/flann/autotuned_index.h \
   /usr/local/include/opencv4/opencv2/flann/ground_truth.h \
   /usr/local/include/opencv4/opencv2/flann/index_testing.h \
