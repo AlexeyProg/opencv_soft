@@ -6,17 +6,20 @@ Detect::Detect()
 
 }
 
-// void Detect::video()
-// {
-//     VideoCapture video(0);
-//     Mat img;
-//     while(true)
-//     {
-//         video.read(img);
-//         imshow("frame", img);
-//         waitKey(1);
-//     }
-// }
+void Detect::video()
+{
+    VideoCapture video(0);
+    Mat img;
+    while(true)
+    {
+        int key = cv::waitKey(1);
+        if(key == 27)
+            break;
+        video.read(img);
+        imshow("Press 'Esc' to exit", img);
+    }
+    cv::destroyWindow("Press 'Esc' to exit");
+}    
 
 void Detect::get_data(const string &data)
 {

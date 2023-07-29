@@ -4,18 +4,25 @@
 
 Application::Application(Detect *det,QWidget *parent) : QMainWindow(parent), det(det)
 {
-    //this->setFixedSize(400,550);
+    //this->setFixedSize(400,500);
     create_window();
     connect(resize_butt, SIGNAL(clicked()), this, SLOT(send_data()));
     connect(recognize_butt, SIGNAL(clicked()), this, SLOT(recognize()));
-    connect(test, SIGNAL(clicked()), this, SLOT(open_browse_dialog()));
+    connect(browse_dirs, SIGNAL(clicked()), this, SLOT(open_browse_dialog()));
+    connect(line_edit, &QLineEdit::textChanged, this, [this](){
+        resize_butt->setEnabled(true);
+        recognize_butt->setEnabled(true);
+    });
+
+    connect(video_camera, SIGNAL(clicked()), this, SLOT(camera_open()));
 
     grid = new QGridLayout(this);
 
     grid->addWidget(line_edit,0,0,1,2);
     grid->addWidget(recognize_butt,1,0);
+    grid->addWidget(video_camera, 1,1);
     grid->addWidget(resize_butt,1,2);
-    grid->addWidget(test,0,2);
+    grid->addWidget(browse_dirs,0,2);
 
     QWidget *centr = new QWidget(this);
     centr->setLayout(grid);
@@ -43,21 +50,33 @@ void Application::open_browse_dialog()
 
 void Application::create_window()
 {
+    this->setStyleSheet("background-color : Gray;");
     this->setGeometry(200,100,300,500);
     this->setWindowTitle("OpenCV");
+
     line_edit = new QLineEdit;
+    line_edit->setStyleSheet("background-color : white;");
     line_edit->setFixedWidth(300);
+    line_edit->setPlaceholderText("Enter path or select 'browse'...");
 
     resize_butt = new QPushButton;
     resize_butt->setText("resize");
+    resize_butt->setStyleSheet("background-color : white;");
     resize_butt->setFixedWidth(130);
+    resize_butt->setEnabled(false);
 
     recognize_butt = new QPushButton;
+    recognize_butt->setStyleSheet("background-color : white;");
     recognize_butt->setText("Recognize faces");
+    recognize_butt->setEnabled(false);
 
-    test = new QPushButton;
-    test->setText("Browse");
-    // test->setFixedWidth(100);
+    video_camera = new QPushButton;
+    video_camera->setText("Camera");
+    video_camera->setStyleSheet("background-color : white;");
+
+    browse_dirs = new QPushButton;
+    browse_dirs->setStyleSheet("background-color : white;");
+    browse_dirs->setText("Browse");
 }
 
 void Application::send_data()
@@ -67,17 +86,12 @@ void Application::send_data()
 
     std::thread th(&Detect::resize_image, det, det->file_path);
     th.join();
-    //det->resize_image(det->file_path);
 }
 
 void Application::recognize()
 {
     string str = line_edit->text().toStdString();
-    //std::thread th1(&Detect::detect_faces, det, str);
-    //th1.join();  // из-за imshow не в гланом потоке - нельзя.
-
-    //det->detect_faces(str);
-        while (true)
+    while (true)
     {
         int key = cv::waitKey(1);
         if (key == 27) // Код 27 соответствует клавише "Escape", выход из цикла
@@ -87,3 +101,8 @@ void Application::recognize()
     }
     cv::destroyWindow("Press 'Esc' to exit");
 }  
+
+void Application::camera_open()
+{
+    det->video();  
+}

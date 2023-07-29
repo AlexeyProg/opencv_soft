@@ -17,7 +17,7 @@ public:
     Mat detect_faces(string path);
     void get_data(const string &data);
     void resize_image(const string &path);
-    // void video();
+    void video();
     ~Detect();
     string file_path;
 };

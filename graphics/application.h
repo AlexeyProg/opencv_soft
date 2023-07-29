@@ -28,6 +28,7 @@ public slots:
     void send_data();
     void recognize();
     void open_browse_dialog();
+    void camera_open();
 
 private:
     Detect *det;
@@ -36,7 +37,9 @@ private:
 
     QPushButton *resize_butt;
     QPushButton *recognize_butt;
-    QPushButton *test;
+    QPushButton *browse_dirs;
+    QPushButton *video_camera;
+
     QLineEdit *line_edit;
 
 };
